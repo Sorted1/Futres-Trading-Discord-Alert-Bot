@@ -1,0 +1,26 @@
+{
+    "main": {
+        "embed_color": 16711680,
+        "prefix": ".",
+        "guild_id": "1479346948229169377",
+        "owner_id": "1202257179730784311"
+    },
+    "activity": {
+        "status": "online",
+        "activity": "online",
+        "activity_type": "playing",
+        "activity_text": "Monitoring Futures",
+        "activity_url": "https://discord.gg/online"
+    },
+    "logs": {
+        "monitor_alerts_channel": 1488711304029143080
+    },
+    "monitor": {
+        "update_interval": 5,
+        "symbols": {
+            "NQ=F": {"alert_pct": 1.5, "window_size": 5},
+            "ES=F": {"alert_pct": 1.5, "window_size": 5},
+            "GC=F": {"alert_pct": 1.5, "window_size": 5}
+        }
+    }
+}
